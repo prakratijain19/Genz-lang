@@ -1,0 +1,12 @@
+the tea on score is 75 ~
+spill "Checking score..." ~
+
+vibe check if (score > 50) then
+    spill "Score is high key a vibe" ~
+no cap
+
+else
+    spill "Score is giving L" ~
+cap
+
+exit ~

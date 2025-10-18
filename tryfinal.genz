@@ -1,0 +1,21 @@
+iykyk This program does a countdown for a rocket launchs
+
+the tea on countdown is 5 ~
+spill "Checking launch status..." ~
+
+vibe check if (countdown > 0) then
+    spill "Launch sequence is a go, no cap" ~
+    
+    on repeat while (countdown > 0)
+        spill countdown ~
+        the tea on countdown is countdown - 1 ~
+    finna stop
+    
+    spill "It's giving... lift off!" ~
+no cap
+
+else
+    spill "Launch scrubbed, that's an L" ~
+cap
+
+exit ~

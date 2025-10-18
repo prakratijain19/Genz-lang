@@ -1,0 +1,10 @@
+the tea on counter is 3 ~
+the tea on prakrati is 5~
+spill "Starting loop..." ~
+
+on repeat while (counter > 0)
+    spill counter ~
+    the tea on counter is counter - 1 ~
+finna stop
+spill prakrati ~
+spill "Loop finished, no cap." ~
